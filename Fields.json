@@ -1,0 +1,42 @@
+{
+  "fontName": {
+    "label": "Font name",
+    "type": "googleFont",
+    "value": "Montserrat"
+  },
+  "label1": {
+    "label": "Empty? Google Font will be used ^",
+    "type": "hidden"
+  },
+  "customFont": {
+    "label": "Custom Font",
+    "type": "text",
+    "value": "Custom Font Here"
+  },
+  "fontSize": {
+    "label": "Font size (px)",
+    "type": "number",
+    "value": 50
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "600",
+    "options": {
+      "100": "Thin (100)",
+      "200": "Extra Light (200)",
+      "300": "Light (300)",
+      "400": "Normal (400)",
+      "500": "Medium (500)",
+      "600": "Semi Bold (600)",
+      "700": "Bold (700)",
+      "800": "Extra Bold (800)",
+      "900": "Black (900)"
+    }
+  },
+  "fontColor": {
+    "label": "Font Color",
+    "type": "colorpicker",
+    "value": "rgba(255,255,255,1)"
+  }
+}
