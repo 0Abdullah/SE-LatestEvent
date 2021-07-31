@@ -4,7 +4,7 @@
     "type": "googleFont",
     "value": "Montserrat"
   },
-  "label1": {
+  "customFontLabel": {
     "label": "Empty? Google Font will be used ^",
     "type": "hidden"
   },
