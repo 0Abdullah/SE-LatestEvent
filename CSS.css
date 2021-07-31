@@ -1,8 +1,8 @@
 * {
-  text-transform: capitalize;
-  color: {fontColor};
   font-family: {customFont}, {fontName}, sans-serif;
   font-size: {fontSize}px;
   font-weight: {fontWeight};
+  color: {fontColor};
   text-align: center;
+  text-transform: capitalize;
 }
