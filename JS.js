@@ -10,5 +10,5 @@ let acceptables = [
 window.addEventListener('onEventReceived', obj => {
   let {listener, event} = obj.detail;
   if(!acceptables.includes(listener)) return
-  $('#container').html(`${event.name} - ${event.type} ${listener == 'follower-latest' ? '' : 'x' + event.amount}`)
+  $('#container').html(`${event.name} - ${event.type} ${listener != 'follower-latest' ? 'x' + event.amount : ''}`)
 });
